@@ -1,1 +1,0 @@
-<div class="wpautoterms-endorsements"><?php echo $message; ?></div>
