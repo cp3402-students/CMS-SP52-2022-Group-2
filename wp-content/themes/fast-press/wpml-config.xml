@@ -1,0 +1,9 @@
+<wpml-config>
+  <admin-texts>
+    <key name='theme_mods_fast-press-premium'>
+      <key name='header_email' />
+      <key name='header_address' />
+      <key name='header_phone' />
+    </key>
+  </admin-texts>
+</wpml-config>
