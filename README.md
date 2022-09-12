@@ -1,2 +1,2 @@
-This is Group 2's github repository for the website. 
-Included are the wordpress website files itself, and the PHP/XMAPP themes
+<h1>CP3402 CMS Group 2</h1>
+This is the Baizonn Learning centre website github repository developed by group 2
