@@ -27,12 +27,17 @@ For this site, the posts make up the majority of our "About us" page and “Clas
 
 ### Plug-ins
 
-1.	TABLE PRESS: Table Press was initially used to set up the scheduling of the centre's current sessions. It was the bare minimum at 1st but has been improved substantially
+1.	TABLE PRESS: Table Press was initially used to set up the scheduling of the centre's current sessions. It was the bare minimum at 1st but has been improved substantially.Information regarding this plugin can be found here:https://wordpress.org/plugins/tablepress/
 
-2.	FLUENT FORMS: Fluent Forms is the plugin that we used to set up the forms seen in Registration and Contact Us pages
+2.	FLUENT FORMS: Fluent Forms is the plugin that we used to set up the forms seen in Registration and Contact Us pages.Information regarding this plugin can be found here:https://wordpress.org/plugins/fluentform/
 
-3.	SMART SLIDER: Smart Slider is a minor plugin used to set the slideshow in the Home page
+3.	SMART SLIDER: Smart Slider is a minor plugin used to set the slideshow in the Home page.Information regarding this plugin can be found here:https://wordpress.org/plugins/smart-slider-3/
 
-4.	TIMETABLE: Timetable is the plugin that runs the current dynamic scheduling of the centre's current sessions. It allows for picking out classes through a drop down filter
+4.	TIMETABLE AND EVENT SCHEDULE: Timetable and Event Schedule is the plugin that runs the current dynamic scheduling of the centre's current sessions. It allows for picking out classes through a drop down filter.Information regarding this plugin can be found here:
+https://wordpress.org/plugins/mp-timetable/
 
-5.	WP STAGING: WP Staging is the plugin we used to set up the Staging Site
+5.	WP STAGING: WP Staging is the plugin we used to set up the Staging Site.Information regarding this plugin can be found here:https://wordpress.org/plugins/wp-staging/
+
+
+
+
