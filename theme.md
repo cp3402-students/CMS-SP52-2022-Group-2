@@ -8,7 +8,7 @@ Layout of the necessary content was implemented via modifications through wordpr
 
 ## Theme Features
 
-Theme follows several guidelines in building the theme template where whitespaces and layout were managed identically, padding and margin remains matching in every pages and posts. This was for appeal and to offer similar experience in every instance of visiting a section in the website. 
+Theme follows several guidelines in building the theme template where whitespaces and layout were managed identically, padding and margin remains matching in every pages and posts. This was for appeal and to offer similar experience in every instance of visiting a section in the website. Header and Footer was built with HTML/CSS code for further customization preferred by the team and suitability with the contents from the client. 
 
 ## Design Decisions
 
@@ -28,4 +28,4 @@ Minimal colors were used - #FFFFFF, #000000, #0000FF, and #0D98BA. Less colorful
 
 ## Further Developments
 
-Further developments of the theme must be done in the theme editor specifically in wordpress, as well as the css codes for additional and detailed layouts. 
+Further developments of the theme must be done in the theme editor specifically in wordpress, as well as the css codes for additional and detailed layouts. Pages and posts must be edited separately, as well as query loop patterns.
