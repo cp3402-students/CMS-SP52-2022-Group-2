@@ -22,6 +22,7 @@ For this site, the posts make up the majority of our "About us" page and “Clas
 2.	EVENTS AND PROMOTIONS: This post contains events that we hold in the upcoming days, it encourages viewers to book events and displays the details about the promotion and a button that can turn to the classes page.
 
 3.	SCHEDULE: This post is mainly for viewers to see the schedule in according to the classes. The schedule table contains 9 schedules in total from grades vary from JC to secondary, the subjects vary from math to science.
+4.	CURRENT SESSIONS: This post is mainly enables viewers to see the subjects that are currently offered by us, the subjects currently available are Science, Mathematics and advanced courses. For both Science and Mathematics viewers can check the  course information by clicking the classes divided by grades ranging from primary to junior college.
 
 
 ### Plug-ins
