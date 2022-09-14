@@ -26,4 +26,4 @@ We have Trello to track and manage our projects.<br>
 We used AWS to set up our environment, first we fired up a new instance. <br>
 For Software Image we used Amazon Linux 2 and our virtual server is t2.micro type because it is free.
 ### Development Workflow
-
+<img src="https://user-images.githubusercontent.com/81670500/190222756-37226028-9a92-4193-9fb6-d882999779a9.png">
