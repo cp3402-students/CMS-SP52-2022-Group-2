@@ -1,0 +1,36 @@
+.tablepress-id-schedule tbody td {
+	font-size: 10px;
+	border: solid 1px;
+}
+
+.tablepress-id-schedule .column-1 {
+	width: 10%;
+}
+
+.tablepress-id-schedule .column-2 {
+	width: 14%;
+}
+
+.tablepress-id-schedule .column-3 {
+	width: 14%;
+}
+
+.tablepress-id-schedule .column-4 {
+	width: 14%;
+}
+
+.tablepress-id-schedule .column-5 {
+	width: 14%;
+}
+
+.tablepress-id-schedule .column-6 {
+	width: 14%;
+}
+
+.tablepress-id-schedule .column-7 {
+	width: 10%;
+}
+
+.tablepress-id-schedule .column-8 {
+	width: 10%;
+}

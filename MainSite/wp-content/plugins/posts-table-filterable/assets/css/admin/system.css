@@ -1,0 +1,98 @@
+.tableon-button .dashicons, .tableon-button .dashicons-before:before{
+    line-height: 1.5 !important;
+}
+
+.button.tableon-button{
+    padding: 0 11px 0 5px;
+}
+
+.tableon-hidden{
+    display: none !important;
+}
+
+.tableon-data-table input[type="search"]{
+    width: 100%;
+    border: solid 1px #ddd;
+}
+
+.tableon-btn{
+    align-items: center;
+    justify-content: center;
+    background-color: #37C;
+    color: #fff !important;
+    text-decoration: none !important;
+    height: 33px;
+    padding: 1px 1.1rem;
+    margin: 0 5px;
+    box-sizing: border-box;
+    border-radius: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+    transition: background-color 190ms linear;
+    border: 1px solid rgba(0,0,0,0.2);
+    cursor: pointer;
+    font-size: 14px !important;
+    line-height: 31px !important;
+}
+
+.tableon-btn-1{
+    padding: 5px 1.1rem;
+    margin: 0;
+}
+
+.tableon-btn-icon{
+    height: auto;
+    padding: 0 0.7rem;
+    line-height: 0 !important;
+    font-size: 20px !important;
+}
+
+.tableon-btn:hover{
+    background-color: #428bca;
+}
+
+.tableon-columns-field-option,
+.tableon-filter-field-option{
+    width: 100%;
+    color: coral !important;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.tableon-notice{
+    color: #404040;
+    border: solid 1px #0090cb !important;
+    background: #e7f3f7; 
+    padding: 5px; 
+    font-size: 0.80em; 
+    margin-bottom: 4px;
+}
+
+.tableon-data-table .table23_td_actions .button{
+    margin-right: 2px;
+}
+
+
+
+.tableon-modal-title-info a{
+    text-decoration: none;
+}
+
+.tableon-modal-title-info a:hover{
+    border-bottom: dashed 1px red;
+}
+
+.tableon-data-table .dashicons, .tableon-data-table .dashicons-before:before{
+    line-height: 1.4 !important;
+}
+
+.dashicons-tableon:before {
+    content: "\f509";
+}
+
+.table23_td_cell_title{
+    display: block;
+    font-weight: bold;
+    color: #000;
+    font-size: 14px;
+    font-family: sans-serif;
+}

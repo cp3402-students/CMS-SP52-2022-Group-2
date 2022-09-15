@@ -1,0 +1,852 @@
+:root {
+    --tableon-font: 'Helvetica';
+}
+/* Create a custom radio button */
+.tableon-checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: lavender;
+    border-radius: 0;
+    border: solid 1px #fff;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    color: #fff;
+    font-weight: normal !important;
+}
+
+.tableon-checkmark-container{
+    position: absolute;
+    font-family: 'tableon';
+}
+
+.tableon-checkmark-container input{
+    height: 0 !important;
+    opacity: 0;
+    margin: 0;
+}
+
+
+/* On mouse-over, add a grey background color */
+.tableon-checkmark-container:hover input ~ .tableon-checkmark {
+    /*background-color: #946497;*/
+}
+
+.tableon-checkmark-container:hover input ~ .tableon-checkmark::before {
+    /*background-color: #946497;*/
+}
+
+/* When the radio button is checked, add a blue background */
+.tableon-checkmark-container input:checked ~ .tableon-checkmark {
+    background-color: #2196F3;
+}
+.tableon-checkmark-container input:checked ~ .tableon-checkmark::before {
+    content: '\e804';
+    font-size: 13px;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.tableon-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.tableon-checkmark-container input:checked ~ .tableon-checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.tableon-checkmark-container .tableon-checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 70%;
+}
+
+.tableon-clearfix{
+    clear: both;
+}
+
+
+.table23_td_actions{
+    width: 1px;
+    text-align: center;
+}
+
+
+.tableon-data-table a{
+    text-decoration: none !important;
+    color: #428bca;
+}
+
+.tableon-data-table a:hover{
+    text-decoration: none;
+    color: #92bce0;
+}
+
+.tableon-data-table table thead th{
+    /* color: cadetblue; */
+    color: blueviolet;
+    /* background: #fafefa; */
+    background: #f7f9fe;
+    user-select: none;
+}
+
+.tableon-data-table table{
+    font-size: 14px !important;
+}
+
+.tableon-data-table .table23_td_comment_content{
+    max-width: 400px;
+}
+
+.tableon-data-table .table23_td_stars,
+.tableon-data-table .table23_td_comment_date
+{
+    vertical-align: middle;
+}
+
+#tableon_img_preview{
+    position: absolute;
+    border: 1px solid #ccc;
+    background: #333;
+    padding: 5px 5px 11px 5px;
+    display:none;
+    color: #fff;
+    z-index: 20001;
+}
+
+span.tableon-html-yes{
+    color: green;
+    text-align: center;
+    display: block;
+}
+
+span.tableon-html-no{
+    color: red;
+    text-align: center;
+    display: block;
+}
+
+/********************************************************/
+
+@media print {
+    .tableon-data-table .tableon-text-search,
+    .tableon-data-table .tableon-filter-list,
+    .tableon-data-table .table23-per-page-selector,
+    .tableon-data-table .table23-pagination,
+    .tableon-data-table table th.table23-order-able.table23-order-asc:before,
+    .tableon-data-table table th.table23-order-able.table23-order-desc:after,
+    .tableon-data-table table th.table23-order-able:after,
+    .tableon-data-table table th.table23-order-able:before
+    {
+        display: none;
+    }
+}
+
+.tableon-btn,
+.table23-print-btn,
+.table23-load-more-button a{
+    align-items: center;
+    justify-content: center;
+    background-color: #37C;
+    color: #fff !important;
+    text-decoration: none !important;
+    height: 33px;
+    padding: 2px 0.5rem;
+    margin: 0 5px;
+    box-sizing: border-box;
+    border-radius: 0;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+    transition: background-color 190ms linear;
+    border: none;
+    cursor: pointer;
+    font-size: 14px !important;
+    line-height: 31px !important;
+    white-space: nowrap;
+}
+
+td .tableon-btn{
+    padding: 5px 0.5rem;
+}
+
+
+.table23-print-btn{
+    padding: 2px 0.5rem;
+}
+
+.tableon-btn-1{
+    height: auto;
+    margin: 0;
+    padding: 12px;
+    font-size: 23px !important;
+}
+
+.tableon-btn-icon{
+    height: auto;
+    padding: 0 0.7rem;
+    line-height: 0 !important;
+    font-size: 20px !important;
+}
+
+.tableon-btn:hover,
+.table23-print-btn:hover,
+.table23-load-more-button a:hover{
+    background-color: #428bca;
+}
+
+
+/**************************************************************/
+
+.tableon-modal td.table23_td_thumbnail,
+.tableon-data-table td.table23_td_single{
+    width: 1px;
+}
+
+.tableon-modal .table23_td_post_title,
+.tableon-modal .table23_td_title{
+    width: 40%;
+    min-width: 200px;
+    font-size: 1.05em;
+    vertical-align: baseline;
+}
+
+
+/**************************************************************/
+
+.tableon-data-table .table23_td_id{
+    width: 1px;
+    font-weight: bold;
+    vertical-align: top;
+    line-height: 35px;
+    vertical-align: top;
+}
+
+.tableon-data-table div.table23_td_id{
+    width: 100%;
+}
+
+.tableon-data-table .table23_td_post_title{
+    vertical-align: top;
+}
+
+.tableon-data-table .table23_td_cell a{
+    /* color: #428bca !important; */
+    text-decoration: none !important;
+}
+
+.tableon-data-table .table23_td_cell{
+    background-size: cover !important;
+}
+
+.tableon-data-table td.table23_td_thumbnail{
+    width: 1px;
+    text-align: center;
+}
+
+.tableon-data-table .table23_td_thumbnail img{
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+/********************** customization example ****************************************/
+
+*[class*='tableon-pa_color-green']{
+    color: green !important;
+}
+
+*[class*='tableon-pa_color-red']{
+    color: red !important;
+}
+
+*[class*='tableon-pa_color-grey']{
+    color: grey !important;
+}
+
+*[class*='tableon-pa_color-black']{
+    color: black !important;
+}
+
+*[class*='tableon-pa_color-orange']{
+    color: orange !important;
+}
+
+*[class*='tableon-pa_color-rose']{
+    color: coral !important;
+}
+
+*[class*='tableon-pa_color-white']{
+    color: wheat !important;
+}
+
+*[class*='tableon-pa_color-yellow']{
+    color: yellow !important;
+}
+
+.tableon_default_tables .table23-display-cell-info{
+    display: none;
+    color: orange;
+    position: fixed;
+    right: 3%;
+    top: 11%;
+    z-index: 999;
+    background: #f7f9fe;
+    padding: 7px;
+    border: solid 1px #92bce0;
+    border-radius: 0;
+}
+
+.tableon-tax-term{
+    display: inline-block;
+    padding: 3px 4px;
+    border-radius: 0;
+    border:solid 1px #55a0E0 !important;
+    line-height: 12px;
+    font-size: 0.85em;
+    margin-bottom: 2px;
+}
+
+.tableon-content-in-popup .horizontal-scrollbar23-wrapper{
+    position: fixed !important;
+}
+
+.tableon-slider-label{
+    font-weight: bold;
+    margin-bottom: 7px;
+    font-size: 12px;
+    color: #333;
+}
+
+.tableon-filter-cell-type-switcher .tableon-slider-label{
+    font-weight: normal;
+}
+
+.tableon_single_post .table23_td_value{
+    width: 85%;
+}
+
+.tableon_single_post .table23_td_title{
+    width: 15%;
+}
+
+.tableon_single_post .table23_td_value p{
+    margin-bottom: 9px;
+    font-family: var(--tableon-font);
+}
+
+.tableon_single_post .tableon-checkmark-container{
+    display: none;
+}
+
+.tableon_single_post table tr > td:first-child{
+    font-family: var(--tableon-font);
+}
+
+.tableon-data-table .table23_td_sku{
+    font-weight: bold;
+}
+
+
+/***** animation *****/
+@-webkit-keyframes tableon-bounce{20%,53%,80%,from,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1);-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}40%,43%{-webkit-animation-timing-function:cubic-bezier(.755,.050,.855,.060);animation-timing-function:cubic-bezier(.755,.050,.855,.060);-webkit-transform:translate3d(0,-30px,0);transform:translate3d(0,-30px,0)}70%{-webkit-animation-timing-function:cubic-bezier(.755,.050,.855,.060);animation-timing-function:cubic-bezier(.755,.050,.855,.060);-webkit-transform:translate3d(0,-15px,0);transform:translate3d(0,-15px,0)}90%{-webkit-transform:translate3d(0,-4px,0);transform:translate3d(0,-4px,0)}}@keyframes tableon-bounce{20%,53%,80%,from,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1);-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}40%,43%{-webkit-animation-timing-function:cubic-bezier(.755,.050,.855,.060);animation-timing-function:cubic-bezier(.755,.050,.855,.060);-webkit-transform:translate3d(0,-30px,0);transform:translate3d(0,-30px,0)}70%{-webkit-animation-timing-function:cubic-bezier(.755,.050,.855,.060);animation-timing-function:cubic-bezier(.755,.050,.855,.060);-webkit-transform:translate3d(0,-15px,0);transform:translate3d(0,-15px,0)}90%{-webkit-transform:translate3d(0,-4px,0);transform:translate3d(0,-4px,0)}}.tableon-bounce{-webkit-animation-name:tableon-bounce;animation-name:tableon-bounce;-webkit-transform-origin:center bottom;transform-origin:center bottom}
+
+.tableon-hidden{
+    height: 0;
+    overflow: hidden;
+}
+
+.tableon-filter-show-btn{
+    position: relative;
+    font-size: 19px !important;
+}
+
+.tableon-filter-show-btn-closed{
+    background-color: #79b8ff;
+}
+
+
+.tableon-tab-content{
+    margin-top: 15px;
+}
+
+.tableon-tab-content-hidden{
+    height: 0;
+    overflow: hidden;
+}
+
+.tableon-tab-content-hide .horizontal-scrollbar23-wrapper{
+    display: none !important;
+}
+
+.tableon-tab-content-current{
+    height: auto !important;
+    overflow: visible;
+}
+
+.tableon-tab-link-current{
+    background: orange;
+}
+
+.tableon-tab-link-current:hover{
+    background-color: coral;
+}
+
+.tableon-order-select-zone{
+    float: left;
+}
+
+.tableon-order-select select{
+    max-width: 250px;
+}
+
+.tableon-order-select select{
+    padding: 5px;
+    font-size: 13px;
+    min-height: 30px !important;
+    max-height: 30px !important;
+}
+
+.tableon-more-less-container{
+    width: 100%;
+    max-height: 60px;
+    opacity: 0.95;
+    overflow: hidden;
+    cursor: pointer;
+    border-bottom: dotted 1px red;
+    transition: all 0.07s ease;
+}
+
+.tableon-more-less-container > div > strong{
+    display: none;
+    font-size: 120%;
+    margin-bottom: 11px;
+}
+
+.tableon-more-less-container.tableon-more-less-container-active{
+    position: fixed;
+    z-index: 9999;
+    width: 100vh;
+    left: 20%;
+    top: 20%;
+    max-height: 220px;
+    max-height: fit-content;
+    overflow: auto;
+    cursor: auto;
+}
+
+
+.tableon-more-less-container.tableon-more-less-container-active > div{
+    position: relative;
+    max-height: 300px;
+    overflow: auto;
+    background: #fff;
+    padding: 11px 20px 7px 9px ;
+}
+
+div.table23_td_cell .tableon-more-less-container.tableon-more-less-container-active,
+.tableon_single_post .tableon-more-less-container.tableon-more-less-container-active{
+    position: initial;
+    z-index: 1;
+    width: 100%;
+    left: initial;
+    top: initial;
+    max-height: fit-content;
+    overflow: auto;
+    cursor: auto;
+}
+
+.tableon_single_post .tableon-more-less-container > div > strong{
+    position: absolute;
+    top: -100px;
+}
+
+.tableon-more-less-container.tableon-more-less-container-active > div > strong{
+    display: block;
+}
+
+.tableon-more-less-container-closer{
+    display: none;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: red !important;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.tableon-more-less-container-closer:hover{
+    text-decoration: none;
+}
+
+.tableon-more-less-container-closer{
+    text-decoration: none;
+}
+
+.tableon-more-less-container-active .tableon-more-less-container-closer{
+    display: block;
+}
+
+.tableon-num-cell{
+    display: inline-block;
+    margin: 0 auto;
+    /* background: #fcfcfc; */
+    color: #428bca;
+    width: fit-content;
+    padding: 4px 20px;
+    border: solid 2px #eee;
+    font-weight: bold;
+    text-align: center;
+    height: fit-content;
+    border-radius: 23px;
+    min-width: 23px;
+    min-height: 23px;
+    line-height: 23px;
+}
+
+.tableon-notice{
+    color: #404040;
+    border: solid 1px #0090cb !important;
+    background: #e7f3f7;
+    padding: 9px;
+    font-size: 0.80em;
+    margin-bottom: 9px;
+}
+
+/*******************************************************/
+
+.tableon-data-table .table23_td_post_title .tableon-post-tag{
+    font-size: 9px;
+}
+
+.tableon-post-tag-container{
+    position: absolute;
+    top: 2px;
+    right: 0;
+}
+
+.tableon-post-tag {
+    font-family: var(--tableon-font);
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    padding: 4px 4px 5px 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    margin: 0 9px 0 0;
+    text-decoration: none;
+    line-height: 0;
+}
+
+.tableon-post-tag:before {
+    background: #fff;
+    width: 7px;
+    height: 7px;
+    content: "";
+    display: inline-block;
+    border-radius: 20px;
+    margin: 0 5px 0 0;
+    line-height: 0;
+}
+
+.tableon-post-tag:after {
+    display: inline-block;
+    border: 8px solid;
+    height: 0;
+    width: 0;
+    position: absolute;
+    right: -16px;
+    top: 0;
+    content: "";
+    display: inline-block;
+    border-bottom-left-radius: 1px;
+    line-height: 0;
+}
+
+.tableon-post-tag-featured{
+    background: #588fe5;
+}
+
+.tableon-post-tag-featured:after{
+    border-color: transparent transparent transparent #588fe5;
+}
+
+
+.tableon-post-tag-sale{
+    background: orange;
+}
+
+.tableon-post-tag-sale:after{
+    border-color: transparent transparent transparent orange;
+}
+
+.tableon-post-tag-out{
+    background: red;
+}
+
+.tableon-post-tag-out:after{
+    border-color: transparent transparent transparent red;
+}
+
+/*******************************************************/
+
+.tableon-filter-cell-type-select .selectm23-selected{
+    padding: 3px 18px 4px 5px;
+}
+
+.tableon-filter-cell-type-select .selectm23-selected{
+    cursor: pointer;
+}
+
+.tableon-filter-cell-type-mselect .selectm23{
+    /* box-shadow: 2px 2px 1px rgba(0,0,0,0.2); */
+    min-height: 30px;
+    font-family: var(--tableon-font) !important;
+    color: #333;
+}
+
+.tableon-filter-cell-type-mselect .selectm23-selected{
+    margin: 1px 2px 1px 0;
+}
+
+.tableon-blank-page{
+    background: #fff;
+}
+
+.tableon-data-table .table23_td_file{
+    position: relative;
+}
+
+.tableon-data-table .table23_td_file div a{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.tableon-thumbnail{
+    max-width: initial !important;
+}
+
+.tableon-data-table th[data-key="actions"]{
+    text-align: center;
+    white-space: nowrap;
+}
+
+.tableon-filter-cell-type-switcher{
+    margin-right: 15px;
+}
+
+.tableon-filter-cell-type-switcher .switcher23-container{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.tableon-text-search-wrapper::-webkit-scrollbar {
+    background-color:  #f1f8ff;
+}
+
+.tableon-text-search-wrapper::-webkit-scrollbar-thumb {
+    background-color: #c1e1ff;
+}
+
+.tableon-text-search-wrapper .data-table-23 .table23-wrapper{
+    padding: 0;
+}
+
+.tableon-btn.tableon-filter-show-btn{
+    margin: 0;
+}
+
+.tableon-text-search-wrapper .tableon-filter-navigation-label[data-key="post_title"]{
+    display: none;
+}
+
+@font-face {
+    font-family: 'tableon';
+    src: url('font/tableon.eot?26885200');
+    src: url('font/tableon.eot?26885200#iefix') format('embedded-opentype'),
+        url('font/tableon.woff?26885200') format('woff'),
+        url('font/tableon.ttf?26885200') format('truetype'),
+        url('font/tableon.svg?26885200#tableon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.tableon-icon
+{
+    font-family: "tableon";
+    font-style: normal;
+    font-weight: normal;
+    speak: never;
+
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+
+    /* You can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+
+.tableon_single_post table tbody tr:nth-of-type(odd){
+    background-color: #f1f8ff;
+}
+
+div.table23_td_cell .tableon-btn{
+    margin: 0;
+}
+
+.data-table-23 input[type='text'],
+.data-table-23 input[type='number'],
+.data-table-23 input[type='email'],
+.data-table-23 input[type='tel'],
+.data-table-23 input[type='url'],
+.data-table-23 input[type='password'],
+.data-table-23 input[type='search'],
+.data-table-23 textarea
+{
+    padding: 0 7px;
+    background-color: #fff;
+    border: solid 1px #c1e1ff;
+    box-shadow: none;
+    border-radius: 0;
+    min-height: 28px;
+    max-height: 28px;
+}
+
+.calendar23-selector input[type='text']{
+    padding: 0 7px 0 7px;
+    min-height: 28px;
+    max-height: 28px;
+}
+
+.data-table-23 input[type='text']:focus,
+.data-table-23 input[type='number']:focus,
+.data-table-23 input[type='email']:focus,
+.data-table-23 input[type='tel']:focus,
+.data-table-23 input[type='url']:focus,
+.data-table-23 input[type='password']:focus,
+.data-table-23 input[type='search']:focus,
+.data-table-23 textarea:focus,
+.data-table-23 .input-text:focus{
+    background-color: #fefefe;
+}
+
+.data-table-23 button, 
+.data-table-23 input, 
+.data-table-23 select, 
+.data-table-23 textarea,
+.data-table-23 .selectm23{
+    border-color: #c1e1ff;
+    color: #444;
+    border-radius: 0 !important;
+    height: auto !important;
+    min-height: 28px;
+    max-height: 28px;
+}
+
+.data-table-23 .selectm23{
+    min-height: 28px;
+    max-height: 28px;
+}
+
+.data-table-23 input[type="text"],
+.data-table-23 input[type="search"]{
+    background-color: #fff;
+    color: #444 !important;
+    font-size: 13px;
+    height: auto !important;
+}
+
+
+.tableon-dash-btn-single{
+    background: transparent;
+}
+
+@media only screen and (max-width: 650px) {
+    .tableon-order-select-zone{
+        float: left !important;
+        clear: both;
+        margin-top: 3px;
+    }
+}
+
+.selectm23-input.selectm23-hidden{
+    height: 20px;
+}
+
+.table23_td_cell.table23_td_id {
+    white-space: nowrap;
+}
+
+.tableon-filter-cell-type-textinput,
+.tableon-filter-cell-type-textinput input{
+    width: 100%;
+}
+
+.data-table-23 table th.table23-order-able:before{
+    content: '\f176';
+    font-family: 'tableon';
+}
+
+.data-table-23 table th.table23-order-able:after{
+    content: '\f175';
+    font-family: 'tableon';
+}
+
+.data-table-23 .calendar23-prev::after {
+    content: '\f100';
+    font-family: 'tableon';
+}
+
+.data-table-23 .calendar23-next::after {
+    content: '\f101';
+    font-family: 'tableon';
+}
+
+.data-table-23 .calendar23-prev {
+    left: 14px;
+}
+
+.data-table-23 .calendar23-next {
+    right: 14px;
+}
+
+div.table23_td_compare .switcher23-toggle{
+    margin: 0 auto !important;
+}
+
+.data-table-23 table tbody td{
+    font-family: var(--tableon-font);
+}
+
+.data-table-23 table thead th,
+.data-table-23 table tfoot th{
+    font-family: var(--tableon-font);
+}

@@ -1,0 +1,1392 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TableOn - Posts Tables Filterable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 19:28+0000\n"
+"PO-Revision-Date: 2020-10-21 19:28+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.3; wp-5.5.1"
+
+#: classes/tables.php:240
+#, php-format
+msgid "%s (clone)"
+msgstr ""
+
+#: classes/tables-meta.php:463
+msgid "0 write key here"
+msgstr ""
+
+#: classes/tables-meta.php:296 classes/tables.php:92 classes/columns.php:106
+msgid "Actions"
+msgstr ""
+
+#: classes/columns.php:86
+msgid "Active"
+msgstr ""
+
+#: views/options.php:33
+#, php-format
+msgid "Actualized for WordPress v.%s"
+msgstr ""
+
+#: views/options.php:420
+msgid "Add meta field"
+msgstr ""
+
+#: index.php:255
+msgid "Added!"
+msgstr ""
+
+#: index.php:254
+msgid "Adding"
+msgstr ""
+
+#: views/options.php:117
+msgid "All possible columns keys"
+msgstr ""
+
+#: views/options.php:429
+#, php-format
+msgid "Also for posts filtration you can use %s filter!"
+msgstr ""
+
+#: views/options.php:370
+msgid "Append column"
+msgstr ""
+
+#: views/options.php:457
+msgid "Apply"
+msgstr ""
+
+#: lib/helper.php:414
+msgid "Apr"
+msgstr ""
+
+#: lib/helper.php:400
+msgid "April"
+msgstr ""
+
+#: index.php:261
+msgid "Are you sure?"
+msgstr ""
+
+#: classes/tables-meta.php:49
+msgid "Ascending"
+msgstr ""
+
+#: classes/tables-options.php:330
+msgid ""
+"Attach to table constant html id which you can use for targeted CSS "
+"customizations. Remember that ID should be unique! If you not understand it -"
+" leave this field empty."
+msgstr ""
+
+#: views/options.php:234
+msgid "Attachments"
+msgstr ""
+
+#: index.php:1331
+msgid "ATTENTION! All existed TABLEON data will be wiped!"
+msgstr ""
+
+#: lib/helper.php:418
+msgid "Aug"
+msgstr ""
+
+#: lib/helper.php:404
+msgid "August"
+msgstr ""
+
+#: profiles/default/default.php:619 profiles/default/default.php:657
+msgid "Author"
+msgstr ""
+
+#: classes/predefinition.php:191
+msgid "Authors"
+msgstr ""
+
+#: classes/columns-fields-options.php:331
+msgid "Background"
+msgstr ""
+
+#: classes/tables-options.php:192 classes/tables-options.php:206
+msgid "Bottom"
+msgstr ""
+
+#: classes/tables-meta.php:384
+msgid "calendar"
+msgstr ""
+
+#: index.php:1466
+msgid "click me"
+msgstr ""
+
+#: index.php:470
+msgid "click on me"
+msgstr ""
+
+#: classes/tables.php:341
+msgid "clone table"
+msgstr ""
+
+#: index.php:260
+msgid "Cloned!"
+msgstr ""
+
+#: index.php:259
+msgid "Cloning"
+msgstr ""
+
+#: views/popup.php:25 views/options.php:456
+msgid "Close"
+msgstr ""
+
+#: views/options.php:179
+msgid "Codex"
+msgstr ""
+
+#: classes/columns-fields-options.php:313
+msgid "Color"
+msgstr ""
+
+#: views/options.php:294
+msgid "Columns"
+msgstr ""
+
+#: profiles/default/universal.php:97
+#, php-format
+msgid "Columns for %s and shortcode [%s]. Press and wait to reorder."
+msgstr ""
+
+#: profiles/default/single.php:50
+msgid ""
+"Columns for table Single and shortcode [tableon_single]. Press and wait to "
+"reorder."
+msgstr ""
+
+#: index.php:1345
+msgid "Columns keys"
+msgstr ""
+
+#: profiles/default/default.php:739
+msgid "Comment count"
+msgstr ""
+
+#: classes/tables-options.php:320
+msgid "Compact view width"
+msgstr ""
+
+#: views/options.php:228
+msgid "Compare"
+msgstr ""
+
+#: classes/filter-fields-options.php:217
+msgid "Container width. By default is 100%. Example: 50%, 150px"
+msgstr ""
+
+#: profiles/default/default.php:557
+msgid "Content"
+msgstr ""
+
+#: views/options.php:138
+msgid "Create"
+msgstr ""
+
+#: views/options.php:87
+msgid "Create table"
+msgstr ""
+
+#: index.php:251
+msgid "Created!"
+msgstr ""
+
+#: index.php:250
+msgid "Creating"
+msgstr ""
+
+#: views/options.php:331
+msgid "Custom CSS"
+msgstr ""
+
+#: classes/filter-fields-options.php:226
+msgid "Data type"
+msgstr ""
+
+#: lib/helper.php:422
+msgid "Dec"
+msgstr ""
+
+#: lib/helper.php:408
+msgid "December"
+msgstr ""
+
+#: classes/skins.php:31
+msgid "Default"
+msgstr ""
+
+#: classes/tables-options.php:223
+msgid "Default order"
+msgstr ""
+
+#: classes/tables-options.php:214
+msgid "Default order by"
+msgstr ""
+
+#: classes/settings.php:208
+msgid "Default size of posts thumbnails (px)"
+msgstr ""
+
+#: classes/tables-meta.php:398 classes/vocabulary.php:189
+#: classes/columns.php:300
+msgid "delete"
+msgstr ""
+
+#: classes/tables.php:346
+msgid "delete table"
+msgstr ""
+
+#: index.php:257
+msgid "Deleted!"
+msgstr ""
+
+#: index.php:256
+msgid "Deleting"
+msgstr ""
+
+#: views/options.php:200
+msgid "Demo"
+msgstr ""
+
+#: classes/tables-meta.php:50
+msgid "Descending"
+msgstr ""
+
+#: classes/tables.php:139
+#, php-format
+msgid "Details: %s"
+msgstr ""
+
+#: classes/tables-options.php:316
+msgid ""
+"Disable columns data ordering on the site front in the columns where it is "
+"possible"
+msgstr ""
+
+#: classes/tables-options.php:307
+msgid "Disable columns order-by"
+msgstr ""
+
+#: classes/tables-options.php:280
+msgid "Disable filter form"
+msgstr ""
+
+#: classes/filter-fields-options.php:252
+msgid "Display as multi-select"
+msgstr ""
+
+#: classes/columns-fields-options.php:162
+#: classes/columns-fields-options.php:180
+msgid "Display as text"
+msgstr ""
+
+#: classes/columns-fields-options.php:182
+msgid "Display as text instead of link to the post"
+msgstr ""
+
+#: classes/tables-options.php:334
+msgid "Display cell info"
+msgstr ""
+
+#: classes/tables-options.php:337
+msgid "Display cell info on its mouse hover"
+msgstr ""
+
+#: classes/predefinition.php:201
+msgid ""
+"Display posts which relevant to the rule. Example: category:25,26|post_tag:"
+"19|rel:AND. Set -1 if you do not want to use it."
+msgstr ""
+
+#: profiles/default/default.php:253
+msgid "Displays Sorting Dropdown list"
+msgstr ""
+
+#: index.php:102 views/options.php:165
+msgid "Documentation"
+msgstr ""
+
+#: classes/columns.php:221
+msgid "drag and drope"
+msgstr ""
+
+#: classes/columns.php:292
+msgid "edit"
+msgstr ""
+
+#: classes/settings.php:214
+msgid ""
+"Enable this option ONLY if you are going to uninstall TABLEON completely and "
+"forever. For updates keep it disabled."
+msgstr ""
+
+#: classes/settings.php:180
+msgid ""
+"Enable/Disable TABLEON button on the top admin bar. Button will "
+"appear/disappear after the page reloading!"
+msgstr ""
+
+#: index.php:249 index.php:264 index.php:946
+msgid "Error!"
+msgstr ""
+
+#: classes/columns-fields-options.php:340
+msgid "Example: #000000 OR https://__IMG_URL__"
+msgstr ""
+
+#: classes/columns-fields-options.php:322
+msgid "Example: #00ff00"
+msgstr ""
+
+#: classes/columns-fields-options.php:284
+msgid "Example: 16px OR 1.2em"
+msgstr ""
+
+#: profiles/default/default.php:530
+msgid "Excerpt"
+msgstr ""
+
+#: classes/filter-fields-options.php:281
+msgid "Exclude"
+msgstr ""
+
+#: classes/predefinition.php:184
+msgid "Exclude posts ids"
+msgstr ""
+
+#: classes/predefinition.php:208
+msgid ""
+"Exclude posts which relevant to the rule. Example: category:19|post_tag:"
+"21|rel:OR. Set -1 if you do not want to use it."
+msgstr ""
+
+#: classes/predefinition.php:205
+msgid "Excluded taxonomy"
+msgstr ""
+
+#: views/options.php:118
+msgid "Export TABLEON Data"
+msgstr ""
+
+#: views/options.php:213
+msgid "Extensions for TABLEON"
+msgstr ""
+
+#: views/options.php:172
+msgid "FAQ"
+msgstr ""
+
+#: views/options.php:222
+msgid "Favourites"
+msgstr ""
+
+#: lib/helper.php:412
+msgid "Feb"
+msgstr ""
+
+#: lib/helper.php:398
+msgid "February"
+msgstr ""
+
+#: classes/columns.php:94
+msgid "Field"
+msgstr ""
+
+#: profiles/default/default.php:267
+msgid ""
+"fields which you want to see in Sorting Dropdown fields. Press and wait to "
+"reorder."
+msgstr ""
+
+#: views/options.php:313
+msgid "Filter"
+msgstr ""
+
+#: classes/filter-fields-options.php:132
+msgid "Filter element title"
+msgstr ""
+
+#: index.php:1369
+msgid "Filter keys"
+msgstr ""
+
+#: classes/tables-options.php:238
+msgid ""
+"Flying header while table scrolling. Disabled in the compact view mode on "
+"the mobile devices"
+msgstr ""
+
+#: classes/columns-fields-options.php:297
+msgid "Font family"
+msgstr ""
+
+#: classes/columns-fields-options.php:275
+msgid "Font size"
+msgstr ""
+
+#: classes/settings.php:193
+msgid "Fonts"
+msgstr ""
+
+#: classes/tables-options.php:323
+msgid ""
+"For small mobile devices. Here you can set window width less of which the "
+"table will be displayed in compact mode. Example: 500. To disable this "
+"behaviour set -1"
+msgstr ""
+
+#: classes/settings.php:198
+msgid ""
+"For the columns options. Use fonts which are represented in the current "
+"WordPress theme. Use comma and do not use quotes! Example: Helvetica,Roboto"
+msgstr ""
+
+#: lib/helper.php:429
+msgid "Fr"
+msgstr ""
+
+#: classes/filter.php:229
+#, php-format
+msgid "From: %s"
+msgstr ""
+
+#: classes/tables.php:139 profiles/default/default.php:776
+msgid "Gallery"
+msgstr ""
+
+#: index.php:268 views/options.php:72 views/options.php:277
+#: classes/columns.php:289
+msgid "Help"
+msgstr ""
+
+#: views/options.php:441
+#, php-format
+msgid ""
+"Here you can set rules about what posts to display in the table. The "
+"filtration will work with the predefined posts as with basic ones. %s."
+msgstr ""
+
+#: index.php:273
+msgid "hide"
+msgstr ""
+
+#: classes/tables-options.php:273
+msgid "Hide filter form"
+msgstr ""
+
+#: classes/tables-options.php:276
+msgid ""
+"Hide filter form, and show it by button click. Useful if the filter form is "
+"quite big"
+msgstr ""
+
+#: classes/columns-fields-options.php:349
+msgid "Hide on small screen"
+msgstr ""
+
+#: classes/tables-options.php:175
+msgid "How many posts per page display in the table by default. Example: 10"
+msgstr ""
+
+#: classes/tables-options.php:219
+msgid "How to order posts after table initialization"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://pluginus.net/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://posts-table.com/"
+msgstr ""
+
+#: profiles/default/default.php:346
+msgid "ID"
+msgstr ""
+
+#: classes/columns-fields-options.php:199
+msgid ""
+"If enabled in the title cell will be able to shown such labels as: featured, "
+"on sale, out of stock"
+msgstr ""
+
+#: classes/columns-fields-options.php:242
+msgid "If enabled thumbnail will be displayed without link to the single post"
+msgstr ""
+
+#: classes/columns-fields-options.php:164
+msgid ""
+"If enabled, taxonomy terms will be displayed as text. By default: links."
+msgstr ""
+
+#: views/options.php:409
+#, php-format
+msgid ""
+"If to use sorting by meta keys - will be visible only posts which has any "
+"value for the selected meta key. %s"
+msgstr ""
+
+#: classes/columns-fields-options.php:358
+msgid ""
+"If you want to hide this column on small screens, set here width, lower "
+"which its will be hidden. Example: 500. Leave it empty to disable."
+msgstr ""
+
+#: index.php:1339
+msgid "Import"
+msgstr ""
+
+#: views/options.php:119
+msgid "Import TABLEON Data"
+msgstr ""
+
+#: index.php:277
+msgid "Imported!"
+msgstr ""
+
+#: index.php:276
+msgid "Importing"
+msgstr ""
+
+#: classes/filter-fields-options.php:237
+#, php-format
+msgid "In ACF is used %s data type"
+msgstr ""
+
+#: classes/filter-fields-options.php:299
+msgid "Include"
+msgstr ""
+
+#: classes/predefinition.php:198
+msgid "Included taxonomy"
+msgstr ""
+
+#: classes/filter-fields-options.php:93 classes/settings.php:134
+#: classes/columns-fields-options.php:103 classes/tables-options.php:89
+#: classes/predefinition.php:99
+msgid "Info"
+msgstr ""
+
+#: views/options.php:117
+msgid "Info data: All possible columns keys for [tableon] shortcode attributes"
+msgstr ""
+
+#: classes/filter-fields-options.php:166
+msgid "Input minlength"
+msgstr ""
+
+#: classes/filter-fields-options.php:149
+msgid "Input placeholder"
+msgstr ""
+
+#: lib/helper.php:411
+msgid "Jan"
+msgstr ""
+
+#: lib/helper.php:397
+msgid "January"
+msgstr ""
+
+#: lib/helper.php:417
+msgid "Jul"
+msgstr ""
+
+#: lib/helper.php:403
+msgid "July"
+msgstr ""
+
+#: lib/helper.php:416
+msgid "Jun"
+msgstr ""
+
+#: lib/helper.php:402
+msgid "June"
+msgstr ""
+
+#: classes/vocabulary.php:75
+msgid "Key Word"
+msgstr ""
+
+#: classes/settings.php:184
+msgid "Languages"
+msgstr ""
+
+#: classes/settings.php:189
+msgid ""
+"Languages for tab Vocabulary. This options created for dynamic words and "
+"such plugins as WPML. Use the comma to add languages you want to use on the "
+"site front. By default: -1. Example: en_US,fr_FR,es_ES,de_DE,ru_RU. After "
+"the field change, settings of Vocabulary will appear after the page "
+"reloading."
+msgstr ""
+
+#: profiles/default/default.php:228
+msgid "Last Modified Date: Newest to Oldest"
+msgstr ""
+
+#: profiles/default/default.php:227
+msgid "Last Modified Date: Oldest to Newest"
+msgstr ""
+
+#: profiles/default/default.php:277
+msgid "Left"
+msgstr ""
+
+#: index.php:950
+msgid "Load More"
+msgstr ""
+
+#: index.php:247 index.php:944 views/table.php:105 views/popup.php:22
+msgid "Loading ..."
+msgstr ""
+
+#: classes/filter-fields-options.php:261
+msgid "Logic"
+msgstr ""
+
+#: classes/filter-fields-options.php:272
+msgid "Logic of the selected terms. Mainly for multi-select."
+msgstr ""
+
+#: views/options.php:193
+msgid "Make skins"
+msgstr ""
+
+#: lib/helper.php:413
+msgid "Mar"
+msgstr ""
+
+#: lib/helper.php:399
+msgid "March"
+msgstr ""
+
+#: classes/filter-fields-options.php:192
+msgid "Max"
+msgstr ""
+
+#: lib/helper.php:401 lib/helper.php:415
+msgid "May"
+msgstr ""
+
+#: views/options.php:303
+msgid "Meta"
+msgstr ""
+
+#: classes/tables-meta.php:282
+msgid "Meta key"
+msgstr ""
+
+#: classes/filter-fields-options.php:175
+msgid "Min"
+msgstr ""
+
+#: classes/tables-options.php:259
+msgid "Min symbols count"
+msgstr ""
+
+#: classes/tables-options.php:262
+msgid "Minimum symbols for search by title when search is possible"
+msgstr ""
+
+#: classes/filter-fields-options.php:158
+msgid "Minlength"
+msgstr ""
+
+#: lib/helper.php:425
+msgid "Mo"
+msgstr ""
+
+#: classes/columns.php:90
+msgid "Mobile"
+msgstr ""
+
+#: classes/columns.php:78
+msgid "Move"
+msgstr ""
+
+#: classes/filter-fields-options.php:250
+msgid "MultiSelect"
+msgstr ""
+
+#: classes/columns.php:423
+msgid "New Column"
+msgstr ""
+
+#: classes/tables.php:129 classes/tables.php:235
+msgid "New Table"
+msgstr ""
+
+#: classes/vocabulary.php:246
+msgid "new translate"
+msgstr ""
+
+#: index.php:248 index.php:945
+msgid "No Data!"
+msgstr ""
+
+#: classes/columns.php:279
+msgid "no fields found"
+msgstr ""
+
+#: classes/columns-fields-options.php:240
+msgid "No Link"
+msgstr ""
+
+#: classes/tables-options.php:193 classes/tables-options.php:207
+msgid "None"
+msgstr ""
+
+#: lib/rate_alert.php:79
+msgid "Nope, maybe later!"
+msgstr ""
+
+#: classes/tables-meta.php:381
+msgid "not defined"
+msgstr ""
+
+#: profiles/default/default.php:1008 profiles/default/default.php:1010
+msgid "not exists"
+msgstr ""
+
+#: classes/columns.php:254
+msgid "not selected"
+msgstr ""
+
+#: classes/tables-meta.php:292 classes/columns.php:102
+msgid "Notes"
+msgstr ""
+
+#: index.php:262
+msgid "Notice!"
+msgstr ""
+
+#: lib/helper.php:421
+msgid "Nov"
+msgstr ""
+
+#: lib/helper.php:407
+msgid "November"
+msgstr ""
+
+#: classes/tables-meta.php:383
+msgid "number"
+msgstr ""
+
+#: profiles/default/default.php:225
+msgid "Number of Comments: Ascending"
+msgstr ""
+
+#: profiles/default/default.php:226
+msgid "Number of Comments: Descending"
+msgstr ""
+
+#: lib/helper.php:420
+msgid "Oct"
+msgstr ""
+
+#: lib/helper.php:406
+msgid "October"
+msgstr ""
+
+#: index.php:279
+msgid "Offline!"
+msgstr ""
+
+#: lib/rate_alert.php:83
+msgid "Ok, you deserve it"
+msgstr ""
+
+#: index.php:278
+msgid "Online!"
+msgstr ""
+
+#: views/options.php:340
+msgid "Options"
+msgstr ""
+
+#: index.php:1360
+msgid "Order by keys"
+msgstr ""
+
+#: index.php:948
+msgid "Page"
+msgstr ""
+
+#: index.php:949
+msgid "Pages"
+msgstr ""
+
+#: classes/tables-options.php:186
+msgid "Pagination position"
+msgstr ""
+
+#: classes/tables-options.php:172
+msgid "Per page default"
+msgstr ""
+
+#: classes/tables-options.php:200
+msgid "Per page drop-down position"
+msgstr ""
+
+#: classes/tables-options.php:179
+msgid "Per page values"
+msgstr ""
+
+#: classes/filter-fields-options.php:141
+msgid "Placeholder"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Plugin for displaying site posts in table format. Tables makes focus for "
+"your site visitors on the things they want to get, nothing superfluous, just "
+"what the client wants, and full attention to what is offered!"
+msgstr ""
+
+#: index.php:1716
+msgid "Post"
+msgstr ""
+
+#: profiles/default/single.php:128
+#, php-format
+msgid "Post #%s does not exists!"
+msgstr ""
+
+#: profiles/default/default.php:671
+msgid "Post date"
+msgstr ""
+
+#: profiles/default/default.php:704
+msgid "Post modified"
+msgstr ""
+
+#: classes/tables-options.php:294
+msgid "Post statuses"
+msgstr ""
+
+#: index.php:275
+msgid "Post title"
+msgstr ""
+
+#: classes/tables.php:84
+msgid "Post type"
+msgstr ""
+
+#: index.php:947
+msgid "Posts"
+msgstr ""
+
+#: classes/predefinition.php:194
+msgid ""
+"Posts by authors ids. Example: 1,2,3. Set -1 if you do not want to use it."
+msgstr ""
+
+#: classes/predefinition.php:177
+msgid "Posts ids"
+msgstr ""
+
+#: index.php:1603
+msgid "Posts in popup"
+msgstr ""
+
+#: classes/tables-options.php:231
+msgid "Posts order direction"
+msgstr ""
+
+#: index.php:101
+msgid "Posts Tables"
+msgstr ""
+
+#: views/options.php:244
+msgid "Power your site"
+msgstr ""
+
+#: views/options.php:251
+msgid "Power your woocommerce store"
+msgstr ""
+
+#: views/options.php:322
+msgid "Predefinition"
+msgstr ""
+
+#: views/options.php:356
+msgid "Prepend column"
+msgstr ""
+
+#: classes/columns-fields-options.php:257
+msgid "Preview on hover"
+msgstr ""
+
+#: classes/tables.php:80
+msgid "Published"
+msgstr ""
+
+#: views/options.php:412 views/options.php:444
+msgid "Read more here"
+msgstr ""
+
+#. Author of the plugin
+msgid "realmag777"
+msgstr ""
+
+#: index.php:265
+msgid "Reset"
+msgstr ""
+
+#: profiles/default/default.php:276
+msgid "Right"
+msgstr ""
+
+#: lib/helper.php:430
+msgid "Sa"
+msgstr ""
+
+#: index.php:253
+msgid "Saved!"
+msgstr ""
+
+#: index.php:252
+msgid "Saving"
+msgstr ""
+
+#: classes/columns.php:338
+msgid "search by column title"
+msgstr ""
+
+#: classes/vocabulary.php:130
+msgid "search by keyword"
+msgstr ""
+
+#: index.php:440 classes/tables-options.php:267 profiles/default/default.php:50
+msgid "search by title"
+msgstr ""
+
+#: classes/tables-options.php:266
+msgid "Search by title placeholder"
+msgstr ""
+
+#: index.php:270
+msgid "select"
+msgstr ""
+
+#: index.php:271
+msgid "Select all posts"
+msgstr ""
+
+#: index.php:266
+msgid "Select table thumbnail"
+msgstr ""
+
+#: lib/helper.php:419
+msgid "Sep"
+msgstr ""
+
+#: lib/helper.php:405
+msgid "September"
+msgstr ""
+
+#: classes/filter-fields-options.php:183 classes/filter-fields-options.php:200
+msgid ""
+"Set custom min value. By default value is -1 and auto definition through "
+"database will be applied."
+msgstr ""
+
+#: classes/tables-options.php:210
+msgid "Set none to hide drop-down"
+msgstr ""
+
+#: classes/tables-options.php:196
+msgid "Set none to hide pagination"
+msgstr ""
+
+#: views/options.php:54
+msgid "Settings"
+msgstr ""
+
+#: classes/tables.php:76
+msgid "Shortcode"
+msgstr ""
+
+#: index.php:267
+msgid "Shortcodes Help"
+msgstr ""
+
+#: index.php:272
+msgid "show"
+msgstr ""
+
+#: classes/settings.php:178
+msgid "Show button in admin bar"
+msgstr ""
+
+#: classes/columns-fields-options.php:197
+msgid "Show labels"
+msgstr ""
+
+#: classes/tables-options.php:242
+msgid "Show print button"
+msgstr ""
+
+#: classes/tables-options.php:245
+msgid "Show print button to print table current page"
+msgstr ""
+
+#: classes/tables-options.php:252
+#, php-format
+msgid ""
+"Show search by post title textinput. To make it works with post content text "
+"and post excerpt text use shortcode attributes %s"
+msgstr ""
+
+#: classes/tables-options.php:249
+msgid "Show search by title"
+msgstr ""
+
+#: profiles/default/default.php:250
+msgid "Show Sorting Dropdown"
+msgstr ""
+
+#: profiles/default/default.php:584 profiles/default/single.php:40
+msgid "Single"
+msgstr ""
+
+#: profiles/default/default.php:587
+msgid "Single post data"
+msgstr ""
+
+#: classes/tables.php:88
+msgid "Skin"
+msgstr ""
+
+#: profiles/default/default.php:222
+msgid "Sort by latest"
+msgstr ""
+
+#: profiles/default/default.php:229
+msgid "Sort by menu order"
+msgstr ""
+
+#: profiles/default/default.php:223
+msgid "Sort by name A-Z"
+msgstr ""
+
+#: profiles/default/default.php:224
+msgid "Sort by name Z-A"
+msgstr ""
+
+#: profiles/default/default.php:231
+msgid "Sort by post ID: Ascending"
+msgstr ""
+
+#: profiles/default/default.php:232
+msgid "Sort by post ID: Descending"
+msgstr ""
+
+#: profiles/default/default.php:230
+msgid "Sort by random"
+msgstr ""
+
+#: views/table.php:96
+msgid "Sorted by table"
+msgstr ""
+
+#: profiles/default/default.php:258
+msgid "Sorting Dropdown Fields"
+msgstr ""
+
+#: profiles/default/default.php:272
+msgid "Sorting Dropdown position"
+msgstr ""
+
+#: profiles/default/default.php:280
+msgid "Sorting Dropdown position."
+msgstr ""
+
+#: profiles/default/default.php:609
+msgid "Status"
+msgstr ""
+
+#: lib/helper.php:431
+msgid "Su"
+msgstr ""
+
+#: views/options.php:207
+msgid "Support"
+msgstr ""
+
+#: lib/rate_alert.php:66
+msgid "support"
+msgstr ""
+
+#: classes/tables-options.php:283
+msgid "Switch off filter form"
+msgstr ""
+
+#: index.php:352
+#, php-format
+msgid "Table #%s does not exists!"
+msgstr ""
+
+#: index.php:274
+msgid "Table #{0}; filter field: {1}"
+msgstr ""
+
+#: views/table.php:114
+#, php-format
+msgid "Table %s is not active!"
+msgstr ""
+
+#: classes/tables-options.php:327
+msgid "Table custom HTML ID"
+msgstr ""
+
+#: classes/tables.php:337
+msgid "table options"
+msgstr ""
+
+#: views/options.php:389
+msgid "table skins"
+msgstr ""
+
+#: classes/columns.php:285
+#, php-format
+msgid "Table: %s. Field: %s"
+msgstr ""
+
+#: classes/settings.php:65
+msgid "TableOn"
+msgstr ""
+
+#. Name of the plugin
+msgid "TableOn - Posts Tables Filterable"
+msgstr ""
+
+#: views/options.php:32
+#, php-format
+msgid "TableOn - Posts Tables Filterable v.%s"
+msgstr ""
+
+#: index.php:1408
+msgid "TABLEON Blank Page"
+msgstr ""
+
+#: profiles/default/universal.php:66
+msgid "TABLEON: Set post id please in the shortcode attribute!"
+msgstr ""
+
+#: views/options.php:45
+msgid "Tables"
+msgstr ""
+
+#: classes/tables-meta.php:382
+msgid "text"
+msgstr ""
+
+#: classes/tables-options.php:269
+msgid "Text of placeholder for the search by title input"
+msgstr ""
+
+#: lib/helper.php:428
+msgid "Th"
+msgstr ""
+
+#: lib/rate_alert.php:87
+msgid "Thank you, I did it!"
+msgstr ""
+
+#: classes/columns-fields-options.php:304
+msgid "The column text font family. Include them in the tab Settings!"
+msgstr ""
+
+#: views/options.php:128
+#, php-format
+msgid ""
+"This vocabulary is not for interface words, which you can translate for "
+"example by %s, but for the arbitrary words which you applied in the tables "
+"columns. Taxonomies terms also possible to translate here, to display them "
+"in the TableOn tables."
+msgstr ""
+
+#: classes/tables.php:64
+msgid "Thumb"
+msgstr ""
+
+#: classes/tables.php:137 profiles/default/default.php:354
+msgid "Thumbnail"
+msgstr ""
+
+#: classes/settings.php:202
+msgid "Thumbnail size"
+msgstr ""
+
+#: classes/columns-fields-options.php:223
+msgid "Thumbnail width (px)"
+msgstr ""
+
+#: classes/tables-meta.php:277 classes/filter-fields-options.php:87
+#: classes/filter-fields-options.php:124 classes/settings.php:126
+#: classes/columns-fields-options.php:97 classes/tables.php:68
+#: classes/tables.php:138 classes/tables-options.php:81 classes/columns.php:81
+#: classes/predefinition.php:91 profiles/default/default.php:451
+#: profiles/default/single.php:69
+msgid "Title"
+msgstr ""
+
+#: classes/filter.php:230
+#, php-format
+msgid "To: %s"
+msgstr ""
+
+#: classes/tables-options.php:191 classes/tables-options.php:205
+msgid "Top"
+msgstr ""
+
+#: classes/tables-options.php:190 classes/tables-options.php:204
+msgid "Top and Bottom"
+msgstr ""
+
+#: lib/helper.php:426
+msgid "Tu"
+msgstr ""
+
+#: classes/tables-meta.php:287
+msgid "Type"
+msgstr ""
+
+#: index.php:258
+msgid "Updating"
+msgstr ""
+
+#: views/options.php:98
+msgid "Upgrade to Premium"
+msgstr ""
+
+#: profiles/default/upsells.php:20
+msgid "Upsells columns"
+msgstr ""
+
+#: classes/tables-options.php:235
+msgid "Use flying header"
+msgstr ""
+
+#: classes/tables-options.php:287
+msgid "Use load more button"
+msgstr ""
+
+#: classes/tables-options.php:290
+msgid ""
+"Use load more button instead of pagination. If it is activated, pagination "
+"and per-page drop-down will be hidden"
+msgstr ""
+
+#: classes/tables-options.php:303
+msgid ""
+"Use some post statuses on the same time or select one. Publish status is by "
+"default."
+msgstr ""
+
+#: classes/settings.php:223
+msgid "Users roles can manage"
+msgstr ""
+
+#: classes/predefinition.php:187
+msgid ""
+"Using comma, set posts ids you want to hide in the table. Example: 24,101,"
+"888. Set -1 if you do not want to use it."
+msgstr ""
+
+#: classes/predefinition.php:180
+msgid ""
+"Using comma, set posts ids you want to show in the table. Example: 23,99,777."
+" Set -1 if you do not want to use it."
+msgstr ""
+
+#: classes/filter-fields-options.php:290
+msgid ""
+"Using comma, write terms ids you want to exclude from the filter. Leave "
+"empty to disable."
+msgstr ""
+
+#: classes/filter-fields-options.php:308
+msgid ""
+"Using comma, write terms ids you want to see in the filter, another ones "
+"will not be displayed. Leave empty to disable."
+msgstr ""
+
+#: classes/filter-fields-options.php:90 classes/settings.php:129
+#: classes/columns-fields-options.php:100 classes/tables-options.php:84
+#: classes/predefinition.php:94 profiles/default/single.php:72
+msgid "Value"
+msgstr ""
+
+#: classes/tables-options.php:182
+msgid ""
+"Values displayed in the per-page drop-down. Example: 10,20,30,40,50,60,70,80,"
+"90,100"
+msgstr ""
+
+#: views/options.php:186
+msgid "Video"
+msgstr ""
+
+#: views/options.php:63
+msgid "Vocabulary"
+msgstr ""
+
+#: index.php:263
+msgid "Warning!"
+msgstr ""
+
+#: lib/helper.php:427
+msgid "We"
+msgstr ""
+
+#: classes/settings.php:233
+msgid ""
+"What users roles (together with administrator) can manage TABLEON "
+"functionality"
+msgstr ""
+
+#: classes/filter-fields-options.php:209 classes/columns-fields-options.php:214
+#: classes/columns.php:98
+msgid "Width"
+msgstr ""
+
+#: classes/columns-fields-options.php:266
+msgid ""
+"Width of the preview when mouse hover on the thumbnail (px). Set -1 to "
+"disable."
+msgstr ""
+
+#: classes/settings.php:212
+msgid "Wipe all data"
+msgstr ""
+
+#: classes/tables-meta.php:406 classes/tables-options.php:441
+#: classes/columns.php:308 classes/predefinition.php:153
+msgid "Wrong type"
+msgstr ""
+
+#: views/options.php:386
+#, php-format
+msgid ""
+"You can use custom CSS for small changes, but for quite big the table "
+"restyling its recommended to use %s. Use hotkey combination CTRL+S for CSS "
+"code saving!"
+msgstr ""
